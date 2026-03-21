@@ -4,7 +4,7 @@ public class KarateRunner {
 
     @Karate.Test
     Karate testSample() {
-        return Karate.run("classpath:BorrarUsuario.feature");
+        return Karate.run("classpath:RegistrarUsuarios.feature");
     }
     
 }

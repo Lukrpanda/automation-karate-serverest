@@ -19,14 +19,8 @@ Background:
     Given request currentRequest
     When method post
     Then status <code>
-    
-   
     And match response == currentSchema
-    
-   
     And match response == currentResponse
-    
-   
     And print 'Respuesta del servidor:', response
 
     Examples:
