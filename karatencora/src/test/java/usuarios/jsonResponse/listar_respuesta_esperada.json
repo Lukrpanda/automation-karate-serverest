@@ -1,0 +1,14 @@
+[
+  {
+    "quantidade": "#number",
+    "usuarios": "#array"
+  },
+  {
+    "quantidade": 0,
+    "usuarios": []
+  },
+  {
+    "quantidade": "#number",
+    "usuarios": "#array"
+  }
+]

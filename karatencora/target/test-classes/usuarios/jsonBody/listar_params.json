@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "rodrigomelapela@gmail.com",
+    "email": "rod_positiva@qa.com",
+    "password": "password123",
+    "administrador": "true"
+  },
+  {
+    "email": "email_que_no_existe@qa.com"
+  },
+  {
+    "administrador": "true"
+  }
+]

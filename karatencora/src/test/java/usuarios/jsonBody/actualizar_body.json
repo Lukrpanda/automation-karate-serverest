@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Usuario Modificado",
+    "email": "email_actualizado1@qa.com",
+    "password": "newpassword123",
+    "administrador": "true"
+  },
+  {
+    "nome": "Usuario Creado Via Put",
+    "email": "nuevo_via_put1@qa.com",
+    "password": "newpassword123",
+    "administrador": "false"
+  },
+  {
+    "nome": "Usuario Intento Duplicado",
+    "email": "email_actualizado1@qa.com", 
+    "password": "123",
+    "administrador": "true"
+  }
+]

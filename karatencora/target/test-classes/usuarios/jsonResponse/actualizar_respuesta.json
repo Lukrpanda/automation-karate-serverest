@@ -1,0 +1,12 @@
+[
+  {
+    "message": "Registro alterado com sucesso"
+  },
+  {
+    "message": "Cadastro realizado com sucesso",
+    "_id": "#string"
+  },
+  {
+    "message": "Este email já está sendo usado"
+  }
+]

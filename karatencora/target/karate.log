@@ -1,0 +1,1645 @@
+23:24:48.777 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/2
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:24:49.359 [main] DEBUG com.intuit.karate - response time in milliseconds: 572
+1 < 200
+1 < Date: Mon, 18 Aug 2025 04:24:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Etag: W/"1fd-XTG63SYhaP/Uo6/vgmARnL3rpBk"
+1 < Expires: -1
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Pragma: no-cache
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=K6bw%2B4X7PHkWFVvgxs4ovUOhO5uLPYFVkQfaB9pou%2FY%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1755232789"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=K6bw%2B4X7PHkWFVvgxs4ovUOhO5uLPYFVkQfaB9pou%2FY%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1755232789"
+1 < Server: cloudflare
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 2.0 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1755232849
+1 < Age: 15561
+1 < Cf-Cache-Status: HIT
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < Server-Timing: cfEdge;dur=6,cfOrigin;dur=0
+1 < CF-RAY: 970ea4cc4b081e9e-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chains"
+  }
+}
+
+23:24:49.489 [main] INFO  com.intuit.karate - [print] Se capturo el token:  {
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chains"
+  }
+}
+ 
+23:17:41.576 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/2
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:17:42.096 [main] DEBUG com.intuit.karate - response time in milliseconds: 509
+1 < 200
+1 < Date: Tue, 19 Aug 2025 04:17:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Etag: W/"1fd-XTG63SYhaP/Uo6/vgmARnL3rpBk"
+1 < Expires: -1
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Pragma: no-cache
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=K6bw%2B4X7PHkWFVvgxs4ovUOhO5uLPYFVkQfaB9pou%2FY%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1755232789"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=K6bw%2B4X7PHkWFVvgxs4ovUOhO5uLPYFVkQfaB9pou%2FY%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1755232789"
+1 < Server: cloudflare
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 2.0 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1755232849
+1 < Age: 21295
+1 < Cf-Cache-Status: HIT
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+1 < CF-RAY: 9716d7be09bb90c1-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chains"
+  }
+}
+
+23:17:42.240 [main] INFO  com.intuit.karate - [print] Se capturo el token:  {
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chains"
+  }
+}
+ 
+23:17:42.340 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 71
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"userId":87345345,"title":"te quiero melisa","body":"todo todo todo "}
+
+23:17:42.704 [main] DEBUG com.intuit.karate - response time in milliseconds: 361
+1 < 201
+1 < Date: Tue, 19 Aug 2025 04:17:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 97
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < Cache-Control: no-cache
+1 < Etag: W/"61-n9u8NSJXh5vH22PqeyWsFOtUGBI"
+1 < Expires: -1
+1 < Location: https://jsonplaceholder.typicode.com/posts/101
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Pragma: no-cache
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=6otVZk%2FiakjavFbck0ocgCxKhVaBwyFsdMctUuLtO5g%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1755577062"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=6otVZk%2FiakjavFbck0ocgCxKhVaBwyFsdMctUuLtO5g%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1755577062"
+1 < Server: cloudflare
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 2.0 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1755577091
+1 < Cf-Cache-Status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=5,cfOrigin;dur=142
+1 < CF-RAY: 9716d7c10dcb1e7c-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 87345345,
+  "title": "te quiero melisa",
+  "body": "todo todo todo ",
+  "id": 101
+}
+
+23:17:42.718 [main] INFO  com.intuit.karate - [print] Se creo el usuario:  {
+  "userId": 87345345,
+  "title": "te quiero melisa",
+  "body": "todo todo todo ",
+  "id": 101
+}
+ 
+20:09:10.441 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/2
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:09:10.897 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 200
+1 < Date: Sat, 21 Mar 2026 01:09:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < Cache-Control: max-age=43200
+1 < etag: W/"1fd-XTG63SYhaP/Uo6/vgmARnL3rpBk"
+1 < expires: -1
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=emFTNUfDElbYS%2Fw5GMPiE1N44872yNRfkEpNuvq5Bj4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774048802"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=emFTNUfDElbYS%2Fw5GMPiE1N44872yNRfkEpNuvq5Bj4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774048802"
+1 < Server: cloudflare
+1 < vary: Origin, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 996
+1 < x-ratelimit-reset: 1774048815
+1 < Age: 6542
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < Server-Timing: cfEdge;dur=6,cfOrigin;dur=0
+1 < cf-cache-status: HIT
+1 < CF-RAY: 9df911affdd4dd66-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chains"
+  }
+}
+
+20:09:11.019 [main] INFO  com.intuit.karate - [print] Se capturo el token:  {
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chains"
+  }
+}
+ 
+20:09:11.111 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 71
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"userId":87345345,"title":"te quiero melisa","body":"todo todo todo "}
+
+20:09:11.369 [main] DEBUG com.intuit.karate - response time in milliseconds: 257
+1 < 201
+1 < Date: Sat, 21 Mar 2026 01:09:05 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 97
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"61-n9u8NSJXh5vH22PqeyWsFOtUGBI"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/posts/101
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=XcJ2N5dCPIhyoCLNGwfOM5a%2FDjaNoXjg1Ug123HFuvo%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774055345"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=XcJ2N5dCPIhyoCLNGwfOM5a%2FDjaNoXjg1Ug123HFuvo%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774055345"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1774055355
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=2,cfOrigin;dur=24
+1 < CF-RAY: 9df911b2ff5bb207-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 87345345,
+  "title": "te quiero melisa",
+  "body": "todo todo todo ",
+  "id": 101
+}
+
+20:09:11.374 [main] INFO  com.intuit.karate - [print] Se creo el usuario:  {
+  "userId": 87345345,
+  "title": "te quiero melisa",
+  "body": "todo todo todo ",
+  "id": 101
+}
+ 
+21:20:58.459 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Melisa Hernandez","email":"mel@qa.com","password":"123456","administrador":"false"}
+
+21:20:59.905 [main] DEBUG com.intuit.karate - response time in milliseconds: 1435
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: f076f76061f69ae579a9af71089dfa09;o=1
+1 < date: Sat, 21 Mar 2026 02:20:53 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "noUnG2htC9nPcsCr"
+}
+
+21:20:59.982 [main] INFO  com.intuit.karate - [print] Se creo el usuario:  {
+  "message": "Cadastro realizado com sucesso",
+  "_id": "noUnG2htC9nPcsCr"
+}
+ 
+21:38:37.520 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Melisa Hernandez","email":"mel@qa.com","password":"123456","administrador":"false"}
+
+21:38:38.072 [main] DEBUG com.intuit.karate - response time in milliseconds: 545
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: acd51fcd63b0439febf68dde47121964;o=1
+1 < date: Sat, 21 Mar 2026 02:38:31 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "X44E23K8VV154AnY"
+}
+
+21:38:38.139 [main] INFO  com.intuit.karate - [print] Se creo el usuario:  {
+  "message": "Cadastro realizado com sucesso",
+  "_id": "X44E23K8VV154AnY"
+}
+ 
+21:45:20.571 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:6
+* def userRequest = read('jsonBody/usuario_body.json')
+js failed:
+>>>>
+01: read('jsonBody/usuario_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\HP\Downloads\karate encora\karatencora\target\test-classes\jsonBody\usuario_body.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:RegistrarUsuarios.feature:6
+21:47:49.913 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:6
+* def userRequest = read('jsonBody/usuario_body.json')
+js failed:
+>>>>
+01: read('jsonBody/usuario_body.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\HP\Downloads\karate encora\karatencora\target\test-classes\jsonBody\usuario_body.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:RegistrarUsuarios.feature:6
+21:52:53.976 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:8
+* def userSchema = read('jsonSchema/esquema_esperado.json')
+js failed:
+>>>>
+01: read('jsonSchema/esquema_esperado.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\HP\Downloads\karate encora\karatencora\target\test-classes\jsonSchema\esquema_esperado.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:RegistrarUsuarios.feature:8
+21:53:41.064 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Melisa Hernandez","email":"mel@qa.com","password":"123456","administrador":"false"}
+
+21:53:41.515 [main] DEBUG com.intuit.karate - response time in milliseconds: 444
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 7b3e02bb8e1d6f735e549f5469429e37;o=1
+1 < date: Sat, 21 Mar 2026 02:53:35 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "Zc4rdtnuIAnPL21y"
+}
+
+21:53:41.550 [main] INFO  com.intuit.karate - [print] Se creo el usuario con ID:  Zc4rdtnuIAnPL21y 
+22:22:36.284 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: RegistrarUsuarios.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+22:25:26.573 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: RegistrarUsuarios.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+22:25:51.726 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:19
+Given request currentRequest
+js failed:
+>>>>
+01: currentRequest
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "currentRequest" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:RegistrarUsuarios.feature:19
+22:25:51.862 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:19
+Given request currentRequest
+js failed:
+>>>>
+01: currentRequest
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "currentRequest" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:RegistrarUsuarios.feature:19
+22:25:51.906 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:19
+Given request currentRequest
+js failed:
+>>>>
+01: currentRequest
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "currentRequest" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:RegistrarUsuarios.feature:19
+22:27:28.522 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 114
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"rodrigomelapela@gmail.com","email":"rod_positiva@qa.com","password":"password123","administrador":"true"}
+
+22:27:29.625 [main] DEBUG com.intuit.karate - response time in milliseconds: 1069
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 5308fe8810267099a2b1c85a46996b99;o=1
+1 < date: Sat, 21 Mar 2026 03:27:23 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "jLWxmpBKOxhk5xKk"
+}
+
+22:27:29.687 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "message": "Cadastro realizado com sucesso",
+  "_id": "jLWxmpBKOxhk5xKk"
+}
+ 
+22:27:29.757 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 115
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"rodrigomelapela@gmail.com","email":"rod_positiva@qa.com","password":"password123","administrador":"false"}
+
+22:27:30.050 [main] DEBUG com.intuit.karate - response time in milliseconds: 291
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 8a9719acdfc0a05493e6af3d8222c422
+1 < date: Sat, 21 Mar 2026 03:27:23 GMT
+1 < server: Google Frontend
+1 < Content-Length: 53
+{
+    "message": "Este email já está sendo usado"
+}
+
+22:27:30.060 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "message": "Este email já está sendo usado"
+}
+ 
+22:27:30.111 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Sin Email","password":"password123","administrador":"true"}
+
+22:27:30.399 [main] DEBUG com.intuit.karate - response time in milliseconds: 285
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: d504b3302f025e7ce73d92160205f0a8
+1 < date: Sat, 21 Mar 2026 03:27:24 GMT
+1 < server: Google Frontend
+1 < Content-Length: 40
+{
+    "email": "email é obrigatório"
+}
+
+22:27:30.408 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "email": "email é obrigatório"
+}
+ 
+00:07:58.711 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?_id=string&nome=rodrigomelapela%40gmail.com&email=rod_positiva%40qa.com&password=password123&administrador=true
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:07:59.716 [main] DEBUG com.intuit.karate - response time in milliseconds: 993
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 58ae62f1ac079887aca78e159833bd71
+1 < date: Sat, 21 Mar 2026 05:07:53 GMT
+1 < server: Google Frontend
+1 < Content-Length: 43
+{
+    "quantidade": 0,
+    "usuarios": []
+}
+
+00:07:59.822 [main] INFO  com.intuit.karate - [print] Lista de usuarios filtrada:  {
+  "quantidade": 0,
+  "usuarios": [
+  ]
+}
+ 
+00:18:11.809 [main] ERROR com.intuit.karate - classpath:ListarUsuarios.feature:10
+* def allSchemas = read('usuarios/jsonSchema/listar_esquema_esperado.json')
+js failed:
+>>>>
+01: read('usuarios/jsonSchema/listar_esquema_esperado.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\HP\Downloads\karate encora\karatencora\target\test-classes\usuarios\jsonSchema\listar_esquema_esperado.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:ListarUsuarios.feature:10
+00:18:11.848 [main] ERROR com.intuit.karate - classpath:ListarUsuarios.feature:10
+* def allSchemas = read('usuarios/jsonSchema/listar_esquema_esperado.json')
+js failed:
+>>>>
+01: read('usuarios/jsonSchema/listar_esquema_esperado.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\HP\Downloads\karate encora\karatencora\target\test-classes\usuarios\jsonSchema\listar_esquema_esperado.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:ListarUsuarios.feature:10
+00:18:11.862 [main] ERROR com.intuit.karate - classpath:ListarUsuarios.feature:10
+* def allSchemas = read('usuarios/jsonSchema/listar_esquema_esperado.json')
+js failed:
+>>>>
+01: read('usuarios/jsonSchema/listar_esquema_esperado.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\HP\Downloads\karate encora\karatencora\target\test-classes\usuarios\jsonSchema\listar_esquema_esperado.json (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:ListarUsuarios.feature:10
+00:19:16.145 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=rodrigomelapela%40gmail.com&email=rod_positiva%40qa.com&password=password123&administrador=true
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:19:17.033 [main] DEBUG com.intuit.karate - response time in milliseconds: 879
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: d1701a8ca5a25c5d728568c3f841ae61;o=1
+1 < date: Sat, 21 Mar 2026 05:19:10 GMT
+1 < server: Google Frontend
+1 < Content-Length: 43
+{
+    "quantidade": 0,
+    "usuarios": []
+}
+
+00:19:17.070 [main] INFO  com.intuit.karate - [print] Usuarios encontrados (Cantidad):  0 
+00:19:17.097 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?email=email_que_no_existe%40qa.com
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:19:17.625 [main] DEBUG com.intuit.karate - response time in milliseconds: 525
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 94a7e08e74157d6ed37c43df657a548f
+1 < date: Sat, 21 Mar 2026 05:19:11 GMT
+1 < server: Google Frontend
+1 < Content-Length: 43
+{
+    "quantidade": 0,
+    "usuarios": []
+}
+
+00:19:17.636 [main] INFO  com.intuit.karate - [print] Usuarios encontrados (Cantidad):  0 
+00:19:17.688 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?administrador=true
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:19:17.987 [main] DEBUG com.intuit.karate - response time in milliseconds: 298
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 6f5827ecd35fc32190c27cc56ab27c9b
+1 < date: Sat, 21 Mar 2026 05:19:11 GMT
+1 < server: Google Frontend
+1 < Content-Length: 253
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        }
+    ]
+}
+
+00:19:17.992 [main] INFO  com.intuit.karate - [print] Usuarios encontrados (Cantidad):  1 
+00:28:25.646 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/f5VeXaMwDB3phDKq
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:28:26.330 [main] DEBUG com.intuit.karate - response time in milliseconds: 675
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: fb2621b415f094e7b0082d141e9232da;o=1
+1 < date: Sat, 21 Mar 2026 05:28:20 GMT
+1 < server: Google Frontend
+1 < Content-Length: 155
+{
+    "nome": "marilia gonzales",
+    "email": "mgonzales@gmail.com",
+    "password": "12345",
+    "administrador": "true",
+    "_id": "f5VeXaMwDB3phDKq"
+}
+
+00:28:26.411 [main] INFO  com.intuit.karate - [print] Usuario encontrado:  {
+  "nome": "marilia gonzales",
+  "email": "mgonzales@gmail.com",
+  "password": "12345",
+  "administrador": "true",
+  "_id": "f5VeXaMwDB3phDKq"
+}
+ 
+00:37:17.504 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/%220uxuPY0cbmQhpEz1%22
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:37:18.589 [main] DEBUG com.intuit.karate - response time in milliseconds: 1078
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: e8b0107a41013a458daab6e091c63789;o=1
+1 < date: Sat, 21 Mar 2026 05:37:12 GMT
+1 < server: Google Frontend
+1 < Content-Length: 67
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+
+00:37:18.600 [main] ERROR com.intuit.karate - classpath:BuscarUsuarioID.feature:21
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 1078, url: https://serverest.dev/usuarios/%220uxuPY0cbmQhpEz1%22, response: 
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+classpath:BuscarUsuarioID.feature:21
+00:37:18.637 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/%22idFalso12345%22
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:37:19.976 [main] DEBUG com.intuit.karate - response time in milliseconds: 1338
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 1a56542e3c73019e19b30265db955504
+1 < date: Sat, 21 Mar 2026 05:37:13 GMT
+1 < server: Google Frontend
+1 < Content-Length: 67
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+
+00:37:20.042 [main] ERROR com.intuit.karate - classpath:BuscarUsuarioID.feature:24
+And match response == currentSchema
+match failed: EQUALS
+  $ | not equal | actual does not contain key - 'message' (MAP:MAP)
+  {"id":"id deve ter exatamente 16 caracteres alfanuméricos"}
+  {"message":"#string"}
+
+
+classpath:BuscarUsuarioID.feature:24
+00:38:41.100 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/%22f5VeXaMwDB3phDKq%22
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:38:41.738 [main] DEBUG com.intuit.karate - response time in milliseconds: 633
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 3dd32e2ec484c4daf734453061d0bcaf;o=1
+1 < date: Sat, 21 Mar 2026 05:38:35 GMT
+1 < server: Google Frontend
+1 < Content-Length: 67
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+
+00:38:41.748 [main] ERROR com.intuit.karate - classpath:BuscarUsuarioID.feature:21
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 633, url: https://serverest.dev/usuarios/%22f5VeXaMwDB3phDKq%22, response: 
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+classpath:BuscarUsuarioID.feature:21
+00:38:41.786 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/%22idFalso12345%22
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:38:42.176 [main] DEBUG com.intuit.karate - response time in milliseconds: 388
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: ab0307bec4e1496d1108d2ba74f8df4d
+1 < date: Sat, 21 Mar 2026 05:38:36 GMT
+1 < server: Google Frontend
+1 < Content-Length: 67
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+
+00:38:42.216 [main] ERROR com.intuit.karate - classpath:BuscarUsuarioID.feature:24
+And match response == currentSchema
+match failed: EQUALS
+  $ | not equal | actual does not contain key - 'message' (MAP:MAP)
+  {"id":"id deve ter exatamente 16 caracteres alfanuméricos"}
+  {"message":"#string"}
+
+
+classpath:BuscarUsuarioID.feature:24
+00:40:46.564 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/%224vq4wNf6cP0S3bX7%22
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:40:47.166 [main] DEBUG com.intuit.karate - response time in milliseconds: 593
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 4569e2632a5e34c9995140d14d9c9f9c;o=1
+1 < date: Sat, 21 Mar 2026 05:40:40 GMT
+1 < server: Google Frontend
+1 < Content-Length: 67
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+
+00:40:47.187 [main] ERROR com.intuit.karate - classpath:BuscarUsuarioID.feature:21
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 593, url: https://serverest.dev/usuarios/%224vq4wNf6cP0S3bX7%22, response: 
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+classpath:BuscarUsuarioID.feature:21
+00:40:47.233 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/%22idFalso12345%22
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:40:47.535 [main] DEBUG com.intuit.karate - response time in milliseconds: 300
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: e036674ac21bbffbdc5b9d865928b343
+1 < date: Sat, 21 Mar 2026 05:40:41 GMT
+1 < server: Google Frontend
+1 < Content-Length: 67
+{
+    "id": "id deve ter exatamente 16 caracteres alfanuméricos"
+}
+
+00:40:47.575 [main] ERROR com.intuit.karate - classpath:BuscarUsuarioID.feature:24
+And match response == currentSchema
+match failed: EQUALS
+  $ | not equal | actual does not contain key - 'message' (MAP:MAP)
+  {"id":"id deve ter exatamente 16 caracteres alfanuméricos"}
+  {"message":"#string"}
+
+
+classpath:BuscarUsuarioID.feature:24
+00:43:56.426 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/4vq4wNf6cP0S3bX7
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:43:57.269 [main] DEBUG com.intuit.karate - response time in milliseconds: 834
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: abf3946348e6b70e3516f0883ab37e96;o=1
+1 < date: Sat, 21 Mar 2026 05:43:51 GMT
+1 < server: Google Frontend
+1 < Content-Length: 45
+{
+    "message": "Usuário não encontrado"
+}
+
+00:43:57.285 [main] ERROR com.intuit.karate - classpath:BuscarUsuarioID.feature:19
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 834, url: https://serverest.dev/usuarios/4vq4wNf6cP0S3bX7, response: 
+{
+    "message": "Usuário não encontrado"
+}
+classpath:BuscarUsuarioID.feature:19
+00:43:57.326 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/idFalso123456789
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:43:57.692 [main] DEBUG com.intuit.karate - response time in milliseconds: 364
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: b655d330acf57799bb045a62b908366e
+1 < date: Sat, 21 Mar 2026 05:43:51 GMT
+1 < server: Google Frontend
+1 < Content-Length: 45
+{
+    "message": "Usuário não encontrado"
+}
+
+00:43:57.752 [main] INFO  com.intuit.karate - [print] Resultado de la busqueda: {
+  "message": "Usuário não encontrado"
+}
+ 
+00:44:45.171 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/1JkAEyjWfRwojXnD
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:44:45.784 [main] DEBUG com.intuit.karate - response time in milliseconds: 605
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 00da872fae0bb3712d562926bae221a6;o=1
+1 < date: Sat, 21 Mar 2026 05:44:39 GMT
+1 < server: Google Frontend
+1 < Content-Length: 155
+{
+    "nome": "marilia gonzales",
+    "email": "mgonzales@gmail.com",
+    "password": "12345",
+    "administrador": "true",
+    "_id": "1JkAEyjWfRwojXnD"
+}
+
+00:44:45.821 [main] INFO  com.intuit.karate - [print] Resultado de la busqueda: {
+  "nome": "marilia gonzales",
+  "email": "mgonzales@gmail.com",
+  "password": "12345",
+  "administrador": "true",
+  "_id": "1JkAEyjWfRwojXnD"
+}
+ 
+00:44:45.857 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios/idFalso123456789
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:44:46.152 [main] DEBUG com.intuit.karate - response time in milliseconds: 291
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 62df0794457072301458b8e3cd6e6959
+1 < date: Sat, 21 Mar 2026 05:44:39 GMT
+1 < server: Google Frontend
+1 < Content-Length: 45
+{
+    "message": "Usuário não encontrado"
+}
+
+00:44:46.159 [main] INFO  com.intuit.karate - [print] Resultado de la busqueda: {
+  "message": "Usuário não encontrado"
+}
+ 
+00:49:46.306 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios/1JkAEyjWfRwojXnD
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 97
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Fulano da Silva","email":"beltrano@qa.com.br","password":"teste","administrador":"true"}
+
+00:49:50.938 [main] DEBUG com.intuit.karate - response time in milliseconds: 4617
+1 < 405
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 6dff4922807bcbef637f7fb9d3d9445a
+1 < date: Sat, 21 Mar 2026 05:49:44 GMT
+1 < server: Google Frontend
+1 < Content-Length: 164
+{
+    "message": "Não é possível realizar POST em /usuarios/1JkAEyjWfRwojXnD. Acesse https://serverest.dev para ver as rotas disponíveis e como utilizá-las."
+}
+
+00:49:50.947 [main] ERROR com.intuit.karate - classpath:ActualizarUsuario.feature:17
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 4617, url: https://serverest.dev/usuarios/1JkAEyjWfRwojXnD, response: 
+{
+    "message": "Não é possível realizar POST em /usuarios/1JkAEyjWfRwojXnD. Acesse https://serverest.dev para ver as rotas disponíveis e como utilizá-las."
+}
+classpath:ActualizarUsuario.feature:17
+00:53:13.781 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios/gNcBtH6UM07OERjN
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 97
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Fulano da Silva","email":"beltrano@qa.com.br","password":"teste","administrador":"true"}
+
+00:53:15.070 [main] DEBUG com.intuit.karate - response time in milliseconds: 1270
+1 < 405
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: ca651757e814ec8794e44f8fd699ebef;o=1
+1 < date: Sat, 21 Mar 2026 05:53:08 GMT
+1 < server: Google Frontend
+1 < Content-Length: 164
+{
+    "message": "Não é possível realizar POST em /usuarios/gNcBtH6UM07OERjN. Acesse https://serverest.dev para ver as rotas disponíveis e como utilizá-las."
+}
+
+00:53:15.083 [main] ERROR com.intuit.karate - classpath:ActualizarUsuario.feature:17
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 1270, url: https://serverest.dev/usuarios/gNcBtH6UM07OERjN, response: 
+{
+    "message": "Não é possível realizar POST em /usuarios/gNcBtH6UM07OERjN. Acesse https://serverest.dev para ver as rotas disponíveis e como utilizá-las."
+}
+classpath:ActualizarUsuario.feature:17
+00:56:29.255 [main] ERROR com.intuit.karate - classpath:ActualizarUsuario.feature:5
+And path 'usuarios', idUsuario
+js failed:
+>>>>
+01: ['usuarios', idUsuario]
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "idUsuario" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:ActualizarUsuario.feature:5
+00:58:17.033 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://serverest.dev/usuarios/1JkAEyjWfRwojXnD
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 110
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Actualizado","email":"nuevo_email@qa.com","password":"newpassword123","administrador":"true"}
+
+00:58:22.941 [main] DEBUG com.intuit.karate - response time in milliseconds: 5901
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: de2c4b28a22ecdf5dd73f919f681a065;o=1
+1 < date: Sat, 21 Mar 2026 05:58:16 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "Ax8yFBMPUa30elVj"
+}
+
+00:58:22.954 [main] ERROR com.intuit.karate - classpath:ActualizarUsuario.feature:19
+Then status 200
+status code was: 201, expected: 200, response time in milliseconds: 5901, url: https://serverest.dev/usuarios/1JkAEyjWfRwojXnD, response: 
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "Ax8yFBMPUa30elVj"
+}
+classpath:ActualizarUsuario.feature:19
+01:02:12.057 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://serverest.dev/usuarios/CigDDUuCWQ07Vxuv
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 113
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Actualizado 4","email":"nuevo_email4@qa.com","password":"newpassword123","administrador":"true"}
+
+01:02:12.782 [main] DEBUG com.intuit.karate - response time in milliseconds: 718
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: b3d6de1a3dc49bba46a03f6476cb302f;o=1
+1 < date: Sat, 21 Mar 2026 06:02:06 GMT
+1 < server: Google Frontend
+1 < Content-Length: 50
+{
+    "message": "Registro alterado com sucesso"
+}
+
+01:02:12.876 [main] INFO  com.intuit.karate - [print] Se actualizo el usuario:  {
+  "message": "Registro alterado com sucesso"
+}
+ 
+01:08:23.204 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://serverest.dev/usuarios/zaWDqzWrSQ6uTTOi
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 116
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Modificado","email":"email_actualizado1@qa.com","password":"newpassword123","administrador":"true"}
+
+01:08:23.832 [main] DEBUG com.intuit.karate - response time in milliseconds: 622
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: c229d65748165bfcc62aec88a9d49d45;o=1
+1 < date: Sat, 21 Mar 2026 06:08:17 GMT
+1 < server: Google Frontend
+1 < Content-Length: 50
+{
+    "message": "Registro alterado com sucesso"
+}
+
+01:08:23.862 [main] INFO  com.intuit.karate - [print] Respuesta de actualizacion: {
+  "message": "Registro alterado com sucesso"
+}
+ 
+01:08:23.893 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://serverest.dev/usuarios/idInventado12345
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 117
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Creado Via Put","email":"nuevo_via_put1@qa.com","password":"newpassword123","administrador":"false"}
+
+01:08:24.242 [main] DEBUG com.intuit.karate - response time in milliseconds: 346
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 53cd023106c3f88a6415e520da3adc6c
+1 < date: Sat, 21 Mar 2026 06:08:18 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "C3buRnYwfZpogFQM"
+}
+
+01:08:24.249 [main] INFO  com.intuit.karate - [print] Respuesta de actualizacion: {
+  "message": "Cadastro realizado com sucesso",
+  "_id": "C3buRnYwfZpogFQM"
+}
+ 
+01:08:24.273 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://serverest.dev/usuarios/idInventado12346
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 112
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Intento Duplicado","email":"email_actualizado1@qa.com","password":"123","administrador":"true"}
+
+01:08:24.581 [main] DEBUG com.intuit.karate - response time in milliseconds: 305
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 069b2ae9e3e4dc9234e8e68d5bb5e01b
+1 < date: Sat, 21 Mar 2026 06:08:18 GMT
+1 < server: Google Frontend
+1 < Content-Length: 53
+{
+    "message": "Este email já está sendo usado"
+}
+
+01:08:24.587 [main] INFO  com.intuit.karate - [print] Respuesta de actualizacion: {
+  "message": "Este email já está sendo usado"
+}
+ 
+01:12:57.349 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://serverest.dev/usuarios/V7yBkUVV6ibOf9YQ
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:12:57.878 [main] DEBUG com.intuit.karate - response time in milliseconds: 522
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 76c72ab578e77ec55ec5f15b2c802728;o=1
+1 < date: Sat, 21 Mar 2026 06:12:51 GMT
+1 < server: Google Frontend
+1 < Content-Length: 51
+{
+    "message": "Registro excluído com sucesso"
+}
+
+01:12:57.976 [main] INFO  com.intuit.karate - [print] Se capturo el token:  {
+  "message": "Registro excluído com sucesso"
+}
+ 
+01:18:13.810 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://serverest.dev/usuarios/CrycuCgM5ORRDwXd
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:18:14.288 [main] DEBUG com.intuit.karate - response time in milliseconds: 470
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 6497db67f745065f0234100ae27e8c9c;o=1
+1 < date: Sat, 21 Mar 2026 06:18:08 GMT
+1 < server: Google Frontend
+1 < Content-Length: 51
+{
+    "message": "Registro excluído com sucesso"
+}
+
+01:18:14.315 [main] INFO  com.intuit.karate - [print] Resultado de la operacion DELETE:  {
+  "message": "Registro excluído com sucesso"
+}
+ 
+01:18:14.349 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://serverest.dev/usuarios/idConCarrinho123
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:18:14.648 [main] DEBUG com.intuit.karate - response time in milliseconds: 296
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: ed2a51a376a5cd125063b85bf243ed9a
+1 < date: Sat, 21 Mar 2026 06:18:08 GMT
+1 < server: Google Frontend
+1 < Content-Length: 46
+{
+    "message": "Nenhum registro excluído"
+}
+
+01:18:14.667 [main] ERROR com.intuit.karate - classpath:BorrarUsuario.feature:19
+Then status 400
+status code was: 200, expected: 400, response time in milliseconds: 296, url: https://serverest.dev/usuarios/idConCarrinho123, response: 
+{
+    "message": "Nenhum registro excluído"
+}
+classpath:BorrarUsuario.feature:19
+01:18:42.967 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://serverest.dev/usuarios/CrycuCgM5ORRDwXd
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:18:43.459 [main] DEBUG com.intuit.karate - response time in milliseconds: 483
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 538426019d654ba20b62b73c4cbd3248;o=1
+1 < date: Sat, 21 Mar 2026 06:18:37 GMT
+1 < server: Google Frontend
+1 < Content-Length: 46
+{
+    "message": "Nenhum registro excluído"
+}
+
+01:18:43.488 [main] ERROR com.intuit.karate - classpath:BorrarUsuario.feature:25
+And match response == currentResponse
+match failed: EQUALS
+  $ | not equal | match failed for name: 'message' (MAP:MAP)
+  {"message":"Nenhum registro excluído"}
+  {"message":"Registro excluído com sucesso"}
+
+    $.message | not equal (STRING:STRING)
+    'Nenhum registro excluído'
+    'Registro excluído com sucesso'
+
+classpath:BorrarUsuario.feature:25
+01:18:43.556 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://serverest.dev/usuarios/idConCarrinho123
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:18:43.832 [main] DEBUG com.intuit.karate - response time in milliseconds: 274
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 3e4f36c17d190ebe98e9e55239d96d11
+1 < date: Sat, 21 Mar 2026 06:18:37 GMT
+1 < server: Google Frontend
+1 < Content-Length: 46
+{
+    "message": "Nenhum registro excluído"
+}
+
+01:18:43.838 [main] ERROR com.intuit.karate - classpath:BorrarUsuario.feature:19
+Then status 400
+status code was: 200, expected: 400, response time in milliseconds: 274, url: https://serverest.dev/usuarios/idConCarrinho123, response: 
+{
+    "message": "Nenhum registro excluído"
+}
+classpath:BorrarUsuario.feature:19
+01:22:45.456 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://serverest.dev/usuarios/8Jzo05lflB2u38Pr
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:22:45.887 [main] DEBUG com.intuit.karate - response time in milliseconds: 423
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 9ad852ee6ffa53e357c99eb1e9ccfa76;o=1
+1 < date: Sat, 21 Mar 2026 06:22:39 GMT
+1 < server: Google Frontend
+1 < Content-Length: 51
+{
+    "message": "Registro excluído com sucesso"
+}
+
+01:22:45.914 [main] INFO  com.intuit.karate - [print] Resultado de la operacion DELETE:  {
+  "message": "Registro excluído com sucesso"
+}
+ 
+01:22:45.944 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://serverest.dev/usuarios/idFalso123456789
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:22:46.233 [main] DEBUG com.intuit.karate - response time in milliseconds: 287
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: ba684814a6a3a2818a0b5bcf7a2f8156
+1 < date: Sat, 21 Mar 2026 06:22:40 GMT
+1 < server: Google Frontend
+1 < Content-Length: 46
+{
+    "message": "Nenhum registro excluído"
+}
+
+01:22:46.240 [main] INFO  com.intuit.karate - [print] Resultado de la operacion DELETE:  {
+  "message": "Nenhum registro excluído"
+}
+ 
