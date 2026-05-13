@@ -49,15 +49,15 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2026-03-21 03:03:32 a. m.</div>
+    <div>2026-04-16 10:32:47 a. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item passed">
+          <div class="nav-item failed">
             <a href="#[1.1:28]"><span>[1.1:28]</span> <span>Validar creacion de usuario - Escenario: &quot;Positivo - Crear usuario valido&quot;</span></a>
           </div>
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1.2:29]"><span>[1.2:29]</span> <span>Validar creacion de usuario - Escenario: &quot;Negativo - Correo ya utilizado (Duplicado)&quot;</span></a>
           </div>
           <div class="nav-item passed">
@@ -86,8 +86,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1813</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2844</span>
             </div>
           </div>
           <div class="step-row">
@@ -110,7 +110,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url &quot;https://serverest.dev&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">96</div>
+    <div class="time-cell passed">239</div>
   </div>
 
    
@@ -166,7 +166,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def allRequests = read(&#39;usuarios/jsonBody/usuario_body.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">148</div>
+    <div class="time-cell passed">392</div>
   </div>
 
    
@@ -222,7 +222,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def allSchemas = read(&#39;usuarios/jsonSchema/esquema_esperado.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -250,7 +250,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def currentRequest = allRequests[0]</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">17</div>
   </div>
 
    
@@ -306,7 +306,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def currentSchema = allSchemas[0]</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -334,7 +334,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>request currentRequest</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">19</div>
   </div>
 
    
@@ -362,7 +362,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">1502</div>
+    <div class="time-cell passed">2160</div>
   </div>
 
    
@@ -371,7 +371,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.20">03:03:31.050 request:
+  <div class="preformatted" data-parent="1.20">10:32:44.781 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 116
@@ -381,8 +381,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;nome&quot;:&quot;rodrigomelapela3@gmail.com&quot;,&quot;email&quot;:&quot;rod_positiva3@qa.com&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-03:03:31.849 response time in milliseconds: 786
-1 &lt; 201
+10:32:45.818 response time in milliseconds: 1032
+1 &lt; 400
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
 1 &lt; x-frame-options: SAMEORIGIN
@@ -391,13 +391,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: aa44d3f273ca9db18f0210e5d5389af6;o=1
-1 &lt; date: Sat, 21 Mar 2026 08:03:25 GMT
+1 &lt; x-cloud-trace-context: 1dc8177db3909eac18e95cd3873bafb3;o=1
+1 &lt; date: Thu, 16 Apr 2026 15:32:45 GMT
 1 &lt; server: Google Frontend
-1 &lt; Content-Length: 82
+1 &lt; Content-Length: 53
 {
-    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;NIxonNUUaPBcPFOL&quot;
+    &quot;message&quot;: &quot;Este email já está sendo usado&quot;
 }
 
 </div>   
@@ -413,13 +412,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="1.21">
-      <div class="step-ref passed">21</div>
+      <div class="step-ref failed">21</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>Then</span>&nbsp;<span>status 201</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell failed">10</div>
   </div>
 
    
@@ -428,7 +427,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-     
+  <div class="preformatted" data-parent="1.21">10:32:45.834 classpath:RegistrarUsuarios.feature:21
+Then status 201
+status code was: 400, expected: 201, response time in milliseconds: 1032, url: https://serverest.dev/usuarios, response: 
+{
+    &quot;message&quot;: &quot;Este email já está sendo usado&quot;
+}
+classpath:RegistrarUsuarios.feature:21
+</div>   
 
   
 
@@ -441,13 +447,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="1.22">
-      <div class="step-ref passed">22</div>
+      <div class="step-ref skipped">22</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response == currentSchema</span>
       </div>
     </div>
-    <div class="time-cell passed">20</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -469,13 +475,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="1.23">
-      <div class="step-ref passed">23</div>
+      <div class="step-ref skipped">23</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response == currentResponse</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -497,13 +503,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="1.24">
-      <div class="step-ref passed">24</div>
+      <div class="step-ref skipped">24</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>print &#39;Respuesta del servidor:&#39;, response</span>
       </div>
     </div>
-    <div class="time-cell passed">21</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -512,12 +518,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.24">03:03:31.894 [print] Respuesta del servidor: {
-  &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-  &quot;_id&quot;: &quot;NIxonNUUaPBcPFOL&quot;
-}
- 
-</div>   
+     
 
   
 
@@ -536,8 +537,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>353</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>599</span>
             </div>
           </div>
           <div class="step-row">
@@ -588,7 +589,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>path &quot;/usuarios&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -644,7 +645,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def allResponses = read(&#39;usuarios/jsonResponse/respuesta_esperada.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -672,7 +673,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def allSchemas = read(&#39;usuarios/jsonSchema/esquema_esperado.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -700,7 +701,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def currentRequest = allRequests[1]</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -728,7 +729,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def currentResponse = allResponses[1]</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -756,7 +757,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def currentSchema = allSchemas[1]</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
@@ -784,7 +785,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>request currentRequest</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -812,7 +813,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">323</div>
+    <div class="time-cell passed">482</div>
   </div>
 
    
@@ -821,7 +822,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.20">03:03:31.954 request:
+  <div class="preformatted" data-parent="2.20">10:32:45.938 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 115
@@ -831,8 +832,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;nome&quot;:&quot;rodrigomelapela@gmail.com&quot;,&quot;email&quot;:&quot;rod_positiva@qa.com&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;administrador&quot;:&quot;false&quot;}
 
-03:03:32.270 response time in milliseconds: 314
-1 &lt; 201
+10:32:46.411 response time in milliseconds: 467
+1 &lt; 400
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
 1 &lt; x-frame-options: SAMEORIGIN
@@ -841,13 +842,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: e70e8bdd6a8affbb67b47215dae385df
-1 &lt; date: Sat, 21 Mar 2026 08:03:26 GMT
+1 &lt; x-cloud-trace-context: 488eccafaec172b4a49ab4b5f36ba62c
+1 &lt; date: Thu, 16 Apr 2026 15:32:46 GMT
 1 &lt; server: Google Frontend
-1 &lt; Content-Length: 82
+1 &lt; Content-Length: 53
 {
-    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;cCvtkrirL9t9RAZF&quot;
+    &quot;message&quot;: &quot;Este email já está sendo usado&quot;
 }
 
 </div>   
@@ -863,13 +863,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="2.21">
-      <div class="step-ref failed">21</div>
+      <div class="step-ref passed">21</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 400</span>
       </div>
     </div>
-    <div class="time-cell failed">11</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -878,15 +878,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.21">03:03:32.284 classpath:RegistrarUsuarios.feature:21
-Then status 400
-status code was: 201, expected: 400, response time in milliseconds: 314, url: https://serverest.dev/usuarios, response: 
-{
-    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;cCvtkrirL9t9RAZF&quot;
-}
-classpath:RegistrarUsuarios.feature:21
-</div>   
+     
 
   
 
@@ -899,13 +891,13 @@ classpath:RegistrarUsuarios.feature:21
 
   <div class="step-row">
     <div class="step-container" id="2.22">
-      <div class="step-ref skipped">22</div>
+      <div class="step-ref passed">22</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == currentSchema</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">51</div>
   </div>
 
    
@@ -927,13 +919,13 @@ classpath:RegistrarUsuarios.feature:21
 
   <div class="step-row">
     <div class="step-container" id="2.23">
-      <div class="step-ref skipped">23</div>
+      <div class="step-ref passed">23</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == currentResponse</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -955,13 +947,13 @@ classpath:RegistrarUsuarios.feature:21
 
   <div class="step-row">
     <div class="step-container" id="2.24">
-      <div class="step-ref skipped">24</div>
+      <div class="step-ref passed">24</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>print &#39;Respuesta del servidor:&#39;, response</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">32</div>
   </div>
 
    
@@ -970,7 +962,11 @@ classpath:RegistrarUsuarios.feature:21
 
   
 
-     
+  <div class="preformatted" data-parent="2.24">10:32:46.498 [print] Respuesta del servidor: {
+  &quot;message&quot;: &quot;Este email já está sendo usado&quot;
+}
+ 
+</div>   
 
   
 
@@ -990,7 +986,7 @@ classpath:RegistrarUsuarios.feature:21
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>335</span>
+              <span>ms:</span>&nbsp;<span>476</span>
             </div>
           </div>
           <div class="step-row">
@@ -1041,7 +1037,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>*</span>&nbsp;<span>path &quot;/usuarios&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1069,7 +1065,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>*</span>&nbsp;<span>def allRequests = read(&#39;usuarios/jsonBody/usuario_body.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -1097,7 +1093,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>*</span>&nbsp;<span>def allResponses = read(&#39;usuarios/jsonResponse/respuesta_esperada.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1125,7 +1121,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>*</span>&nbsp;<span>def allSchemas = read(&#39;usuarios/jsonSchema/esquema_esperado.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -1237,7 +1233,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>Given</span>&nbsp;<span>request currentRequest</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1265,7 +1261,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">310</div>
+    <div class="time-cell passed">434</div>
   </div>
 
    
@@ -1274,7 +1270,7 @@ classpath:RegistrarUsuarios.feature:21
 
   
 
-  <div class="preformatted" data-parent="3.20">03:03:32.356 request:
+  <div class="preformatted" data-parent="3.20">10:32:46.570 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 76
@@ -1284,7 +1280,7 @@ classpath:RegistrarUsuarios.feature:21
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;nome&quot;:&quot;Usuario Sin Email&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-03:03:32.659 response time in milliseconds: 301
+10:32:46.994 response time in milliseconds: 420
 1 &lt; 400
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -1294,8 +1290,8 @@ classpath:RegistrarUsuarios.feature:21
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: a7b6dcc404eb652b90830b70903abf2d
-1 &lt; date: Sat, 21 Mar 2026 08:03:26 GMT
+1 &lt; x-cloud-trace-context: db24dcfe8e32a620e111680fa4dab651
+1 &lt; date: Thu, 16 Apr 2026 15:32:47 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 40
 {
@@ -1349,7 +1345,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>And</span>&nbsp;<span>match response == currentSchema</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -1377,7 +1373,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>And</span>&nbsp;<span>match response == currentResponse</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -1405,7 +1401,7 @@ classpath:RegistrarUsuarios.feature:21
         <span>And</span>&nbsp;<span>print &#39;Respuesta del servidor:&#39;, response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -1414,7 +1410,7 @@ classpath:RegistrarUsuarios.feature:21
 
   
 
-  <div class="preformatted" data-parent="3.24">03:03:32.670 [print] Respuesta del servidor: {
+  <div class="preformatted" data-parent="3.24">10:32:47.015 [print] Respuesta del servidor: {
   &quot;email&quot;: &quot;email é obrigatório&quot;
 }
  

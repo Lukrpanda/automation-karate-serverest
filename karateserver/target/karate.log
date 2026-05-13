@@ -1746,3 +1746,304 @@ classpath:RegistrarUsuarios.feature:21
   "email": "email é obrigatório"
 }
  
+09:56:42.932 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 116
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"rodrigomelapela3@gmail.com","email":"rod_positiva3@qa.com","password":"password123","administrador":"true"}
+
+09:56:43.923 [main] DEBUG com.intuit.karate - response time in milliseconds: 973
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 5ea82af60b3c1a8a31bbabd2a70d41ff;o=1
+1 < date: Thu, 16 Apr 2026 14:56:44 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "WgdD9P1admzM8Q9o"
+}
+
+09:56:43.961 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "message": "Cadastro realizado com sucesso",
+  "_id": "WgdD9P1admzM8Q9o"
+}
+ 
+09:56:44.000 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 115
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"rodrigomelapela@gmail.com","email":"rod_positiva@qa.com","password":"password123","administrador":"false"}
+
+09:56:44.351 [main] DEBUG com.intuit.karate - response time in milliseconds: 348
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 488cd80d49e3708071b9cefc12803b5d
+1 < date: Thu, 16 Apr 2026 14:56:44 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "nLXML2Aq0gp7aeuv"
+}
+
+09:56:44.371 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:21
+Then status 400
+status code was: 201, expected: 400, response time in milliseconds: 348, url: https://serverest.dev/usuarios, response: 
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "nLXML2Aq0gp7aeuv"
+}
+classpath:RegistrarUsuarios.feature:21
+09:56:44.431 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Sin Email","password":"password123","administrador":"true"}
+
+09:56:44.759 [main] DEBUG com.intuit.karate - response time in milliseconds: 326
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 09b03af945f06553f20fb3780c7ec3b8
+1 < date: Thu, 16 Apr 2026 14:56:44 GMT
+1 < server: Google Frontend
+1 < Content-Length: 40
+{
+    "email": "email é obrigatório"
+}
+
+09:56:44.765 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "email": "email é obrigatório"
+}
+ 
+09:57:46.887 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 116
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"rodrigomelapela3@gmail.com","email":"rod_positiva3@qa.com","password":"password123","administrador":"true"}
+
+09:57:48.466 [main] DEBUG com.intuit.karate - response time in milliseconds: 1545
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: bfc614a5fda182afc9a54b542d210038
+1 < date: Thu, 16 Apr 2026 14:57:48 GMT
+1 < server: Google Frontend
+1 < Content-Length: 53
+{
+    "message": "Este email já está sendo usado"
+}
+
+09:57:48.681 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:21
+Then status 201
+status code was: 400, expected: 201, response time in milliseconds: 1545, url: https://serverest.dev/usuarios, response: 
+{
+    "message": "Este email já está sendo usado"
+}
+classpath:RegistrarUsuarios.feature:21
+09:57:49.673 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 115
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"rodrigomelapela@gmail.com","email":"rod_positiva@qa.com","password":"password123","administrador":"false"}
+
+09:57:50.167 [main] DEBUG com.intuit.karate - response time in milliseconds: 462
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: b968bba772d7c3ec3e32117a1deca343
+1 < date: Thu, 16 Apr 2026 14:57:50 GMT
+1 < server: Google Frontend
+1 < Content-Length: 53
+{
+    "message": "Este email já está sendo usado"
+}
+
+09:57:50.329 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "message": "Este email já está sendo usado"
+}
+ 
+09:57:50.422 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Sin Email","password":"password123","administrador":"true"}
+
+09:57:51.040 [main] DEBUG com.intuit.karate - response time in milliseconds: 612
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 9a1434de831c964bcc87598ff79fd5a3
+1 < date: Thu, 16 Apr 2026 14:57:51 GMT
+1 < server: Google Frontend
+1 < Content-Length: 40
+{
+    "email": "email é obrigatório"
+}
+
+09:57:51.112 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "email": "email é obrigatório"
+}
+ 
+10:32:44.770 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 116
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"rodrigomelapela3@gmail.com","email":"rod_positiva3@qa.com","password":"password123","administrador":"true"}
+
+10:32:45.818 [main] DEBUG com.intuit.karate - response time in milliseconds: 1032
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 1dc8177db3909eac18e95cd3873bafb3;o=1
+1 < date: Thu, 16 Apr 2026 15:32:45 GMT
+1 < server: Google Frontend
+1 < Content-Length: 53
+{
+    "message": "Este email já está sendo usado"
+}
+
+10:32:45.834 [main] ERROR com.intuit.karate - classpath:RegistrarUsuarios.feature:21
+Then status 201
+status code was: 400, expected: 201, response time in milliseconds: 1032, url: https://serverest.dev/usuarios, response: 
+{
+    "message": "Este email já está sendo usado"
+}
+classpath:RegistrarUsuarios.feature:21
+10:32:45.938 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 115
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"rodrigomelapela@gmail.com","email":"rod_positiva@qa.com","password":"password123","administrador":"false"}
+
+10:32:46.410 [main] DEBUG com.intuit.karate - response time in milliseconds: 467
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 488eccafaec172b4a49ab4b5f36ba62c
+1 < date: Thu, 16 Apr 2026 15:32:46 GMT
+1 < server: Google Frontend
+1 < Content-Length: 53
+{
+    "message": "Este email já está sendo usado"
+}
+
+10:32:46.496 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "message": "Este email já está sendo usado"
+}
+ 
+10:32:46.569 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Usuario Sin Email","password":"password123","administrador":"true"}
+
+10:32:46.993 [main] DEBUG com.intuit.karate - response time in milliseconds: 420
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: db24dcfe8e32a620e111680fa4dab651
+1 < date: Thu, 16 Apr 2026 15:32:47 GMT
+1 < server: Google Frontend
+1 < Content-Length: 40
+{
+    "email": "email é obrigatório"
+}
+
+10:32:47.014 [main] INFO  com.intuit.karate - [print] Respuesta del servidor: {
+  "email": "email é obrigatório"
+}
+ 
