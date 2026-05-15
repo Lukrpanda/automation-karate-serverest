@@ -19,12 +19,11 @@ jobs:
       - name: Set up JDK 25 
         uses: actions/setup-java@v5
         with:
-          distribution: 'temurin' # See 'Supported distributions' for available options
+          distribution: 'temurin'
           java-version: '25'
 
-      - name: Build with maven
+      - name: Build and Test with Maven
+        working-directory: ./karateserver # <--- Esta es la clave: le indicamos la carpeta correcta
         run: |
-          mvn clean install
-          echo "build with maven"
-
-  
+          mvn clean test
+          echo "Ejecución de pruebas Karate finalizada"
