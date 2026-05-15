@@ -1,0 +1,29 @@
+name: build and test feature branch
+
+on:
+  push:
+    branches:
+      - 'feature/*'
+
+jobs:
+  build-feature:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pull and checkout from git repository
+        uses: actions/checkout@v3
+
+      - name: show pull message
+        run: |
+          echo "Pulling latest changes from git repository"
+
+      - name: Set up JDK 25 
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+
+      - name: Build and Test with Maven
+        working-directory: ./karateserver # <--- Esta es la clave: le indicamos la carpeta correcta
+        run: |
+          mvn clean test
+          echo "Ejecución de pruebas Karate finalizada"
